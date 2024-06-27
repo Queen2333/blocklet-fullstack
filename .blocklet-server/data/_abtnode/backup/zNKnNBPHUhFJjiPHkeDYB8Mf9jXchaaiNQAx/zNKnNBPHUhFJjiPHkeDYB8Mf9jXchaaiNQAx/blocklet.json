@@ -1,0 +1,116 @@
+{
+  "appDid": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx",
+  "appPid": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx",
+  "mode": "production",
+  "meta": {
+    "name": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx",
+    "did": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx",
+    "title": "Alex Blocklet",
+    "description": "test",
+    "version": "1.0.0",
+    "group": "gateway",
+    "interfaces": [
+      { "type": "web", "name": "publicUrl", "path": "/", "prefix": "*", "port": "BLOCKLET_PORT", "protocol": "http" }
+    ],
+    "specVersion": "1.2.8",
+    "environments": [],
+    "timeout": { "start": 60 },
+    "community": "",
+    "documentation": "",
+    "homepage": "",
+    "license": "",
+    "nftFactory": "",
+    "payment": { "price": [], "share": [] },
+    "requirements": { "server": ">=1.7.0", "os": "*", "cpu": "*", "nodejs": "*" },
+    "capabilities": { "navigation": true },
+    "screenshots": [],
+    "components": [],
+    "bundleDid": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx",
+    "bundleName": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx",
+    "appLogo": "logo.svg"
+  },
+  "source": 4,
+  "bundleSource": {},
+  "port": null,
+  "deployedFrom": "",
+  "children": [
+    {
+      "meta": {
+        "name": "z2qZy3oZGyDGumgkVs6ZoNtm1Qpw79evXs13c",
+        "title": "blocklet-fullstack",
+        "description": "A Blocklet DAPP blocklet",
+        "keywords": ["blocklet", "react"],
+        "group": "dapp",
+        "did": "z2qZy3oZGyDGumgkVs6ZoNtm1Qpw79evXs13c",
+        "main": "blocklet.zip",
+        "author": { "name": "Alex", "email": "majestyye@gmail.com" },
+        "repository": { "type": "git", "url": "git+https://github.com/blocklet/create-blocklet.git" },
+        "specVersion": "1.1.1",
+        "version": "0.1.0",
+        "logo": "logo.png",
+        "files": ["dist", "logo.png", "screenshots", "api/hooks/pre-start.js"],
+        "interfaces": [
+          {
+            "type": "web",
+            "name": "publicUrl",
+            "path": "/",
+            "prefix": "*",
+            "port": "BLOCKLET_PORT",
+            "protocol": "http"
+          },
+          {
+            "type": "service",
+            "name": "api",
+            "path": "/api",
+            "port": "BLOCKLET_PORT",
+            "protocol": "http",
+            "prefix": "*"
+          }
+        ],
+        "community": "",
+        "documentation": "",
+        "homepage": "",
+        "license": "",
+        "payment": { "price": [], "share": [] },
+        "timeout": { "start": 60 },
+        "requirements": { "server": ">=1.6.29", "os": "*", "cpu": "*" },
+        "scripts": { "preStart": "node api/hooks/pre-start.js", "dev": "npm run start" },
+        "environments": [
+          {
+            "name": "CHAIN_HOST",
+            "description": "What's endpoint of the chain?",
+            "required": true,
+            "default": "https://beta.abtnetwork.io/api/",
+            "secure": false
+          }
+        ],
+        "capabilities": { "navigation": true },
+        "screenshots": [],
+        "components": [],
+        "gitHash": "cf79ab21fa17be1673cfa8ef962b1ed701e7839b",
+        "nftFactory": "",
+        "bundleDid": "z2qZy3oZGyDGumgkVs6ZoNtm1Qpw79evXs13c",
+        "bundleName": "z2qZy3oZGyDGumgkVs6ZoNtm1Qpw79evXs13c"
+      },
+      "source": 2,
+      "deployedFrom": "Upload by Local CLI",
+      "bundleSource": null,
+      "mountPoint": "/blocklet-fullstack",
+      "installedAt": "2024-06-27T03:42:02.515Z",
+      "mode": "production",
+      "children": [],
+      "startedAt": null,
+      "stoppedAt": "2024-06-27T08:00:41.690Z",
+      "dependents": []
+    }
+  ],
+  "migratedFrom": [],
+  "updatedAt": "2024-06-27T08:00:41.736Z",
+  "stoppedAt": null,
+  "pausedAt": null,
+  "externalSk": true,
+  "externalSkSource": "web-wallet-v4.12.14",
+  "structVersion": "2",
+  "structV1Did": "",
+  "tokens": null
+}

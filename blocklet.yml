@@ -12,7 +12,7 @@ author:
   email: majestyye@gmail.com
 repository:
   type: git
-  url: git+https://github.com/blocklet/create-blocklet.git
+  url: git+https://github.com/Queen2333/blocklet-test.git
 specVersion: 1.1.1
 version: 0.1.0
 logo: logo.png
@@ -26,6 +26,11 @@ interfaces:
     name: publicUrl
     path: /
     prefix: "*"
+    port: BLOCKLET_PORT
+    protocol: http
+  - type: service
+    name: api
+    path: /api
     port: BLOCKLET_PORT
     protocol: http
 community: ""

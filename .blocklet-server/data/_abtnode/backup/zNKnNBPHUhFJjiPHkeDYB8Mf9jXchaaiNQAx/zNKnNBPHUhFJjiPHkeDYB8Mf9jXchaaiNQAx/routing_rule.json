@@ -1,0 +1,29 @@
+{
+  "id": "786538ff-47fc-4d40-b15c-c76065681429",
+  "domain": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx.blocklet-domain-group",
+  "domainAliases": [
+    { "value": "bbqa2zgcaj7lp3rswu5krs6aqqidhjaobekh7y7aagu.did.abtnet.io", "isProtected": true },
+    { "value": "bbqa2zgcaj7lp3rswu5krs6aqqidhjaobekh7y7aagu-888-888-888-888.ip.abtnet.io", "isProtected": true }
+  ],
+  "name": null,
+  "isProtected": true,
+  "rules": [
+    {
+      "id": "55bfd8ac-7308-42f2-86d9-fbad519ee4f4",
+      "groupId": "6512fb48-45a7-4064-a8d6-a927dbac745e",
+      "from": { "pathPrefix": "/blocklet-fullstack/", "groupPathPrefix": "/" },
+      "to": {
+        "type": "blocklet",
+        "port": 8092,
+        "did": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx",
+        "interfaceName": "publicUrl",
+        "componentId": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx/z2qZy3oZGyDGumgkVs6ZoNtm1Qpw79evXs13c"
+      },
+      "isProtected": true
+    }
+  ],
+  "createdAt": "2024-06-27T02:57:20.513Z",
+  "updatedAt": "2024-06-27T08:00:43.395Z",
+  "corsAllowedOrigins": [],
+  "port": null
+}

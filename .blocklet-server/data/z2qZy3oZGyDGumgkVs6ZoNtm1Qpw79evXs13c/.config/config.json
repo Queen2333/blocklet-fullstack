@@ -1,0 +1,30 @@
+{
+  "env": {
+    "appId": "zNKsgTY3CxLCTbq47AGiRjGHtYe9cSAhmtzX",
+    "appPid": "zNKsgTY3CxLCTbq47AGiRjGHtYe9cSAhmtzX",
+    "appIds": ["zNKsgTY3CxLCTbq47AGiRjGHtYe9cSAhmtzX"],
+    "appName": "blocklet-fullstack",
+    "appDescription": "A Blocklet DAPP blocklet",
+    "appUrl": "https://bbqa6nzozpu2yh3bgt5bldbhrdubdqbjbunruk4qa6q.did.abtnet.io",
+    "languages": [
+      { "code": "en", "name": "English" },
+      { "code": "zh", "name": "简体中文" }
+    ],
+    "preferences": {},
+    "serverVersion": "1.16.28"
+  },
+  "components": [
+    {
+      "title": "blocklet-fullstack",
+      "did": "z2qZy3oZGyDGumgkVs6ZoNtm1Qpw79evXs13c",
+      "name": "z2qZy3oZGyDGumgkVs6ZoNtm1Qpw79evXs13c",
+      "version": "0.1.0",
+      "mountPoint": "/",
+      "status": 6,
+      "port": 8093,
+      "resources": [],
+      "resourcesV2": [],
+      "group": "dapp"
+    }
+  ]
+}

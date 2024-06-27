@@ -1,0 +1,89 @@
+{
+  "did": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx",
+  "appDid": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx",
+  "meta": { "did": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx", "name": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx" },
+  "controller": null,
+  "configs": [
+    {
+      "key": "BLOCKLET_APP_CHAIN_TYPE",
+      "value": "arcblock",
+      "required": false,
+      "description": "",
+      "secure": false,
+      "validation": "",
+      "custom": false,
+      "shared": true
+    },
+    {
+      "key": "BLOCKLET_APP_SK",
+      "value": "U2FsdGVkX19YeQqdgvSTeAGXktxp8oxgnJ67RipcruumsLLcSVql/5pWMraD+KR7kW7T0LavCeq79lvhTM+jwSCP3IovuU9rGR1acRY5Vauc/iUFMvfWUG0gCUGmZSD2DiTqxWnZ6vC47CeVv/u9/TWRrqwSfvJElt6QgM5lPk+zAlpaT+SzyOUTlOOJveAgB69D09gwpXmcisCwhJ6jTg==",
+      "required": false,
+      "description": "",
+      "secure": true,
+      "validation": "",
+      "custom": false
+    },
+    {
+      "key": "BLOCKLET_APP_COPYRIGHT_OWNER",
+      "value": "Alex",
+      "required": false,
+      "description": "",
+      "secure": false,
+      "validation": "",
+      "custom": false
+    },
+    {
+      "key": "BLOCKLET_APP_CHAIN_HOST",
+      "value": "https://beta.abtnetwork.io/api/",
+      "required": false,
+      "description": "",
+      "secure": false,
+      "validation": "",
+      "custom": false,
+      "shared": true
+    },
+    {
+      "key": "BLOCKLET_APP_BACKUP_ENDPOINT",
+      "value": "https://www.didspaces.com/app/api/space/zNKhbCbWMHUaZQ8EF7hNvQu8sdAsyKwDSJny/app/zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx/object/",
+      "required": false,
+      "description": "",
+      "secure": false,
+      "validation": "",
+      "custom": false
+    }
+  ],
+  "children": [
+    {
+      "did": "z2qZy3oZGyDGumgkVs6ZoNtm1Qpw79evXs13c",
+      "configs": [
+        {
+          "key": "CHAIN_HOST",
+          "value": "https://beta.abtnetwork.io/api/",
+          "required": true,
+          "description": "What's endpoint of the chain?",
+          "secure": false,
+          "validation": "",
+          "custom": false
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "children": [],
+    "owner": { "did": "z1nL1W1JVTxbNddJjm19poXYCPFGH7HGPk6", "pk": "z8Q9iV1yU7bar511ZNgmELbbGvAUCzW2YLFfALP6zPEDJ" },
+    "autoCheckUpdate": { "enabled": true },
+    "initialized": true,
+    "session": { "cacheTtl": 3600, "ttl": 1209600 },
+    "spaceGateways": [
+      {
+        "name": "Wallet DID Space",
+        "url": "https://www.didspaces.com/app",
+        "endpoint": "https://www.didspaces.com/app/api/space/zNKhbCbWMHUaZQ8EF7hNvQu8sdAsyKwDSJny/app/zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx/object/",
+        "did": "zNKhbCbWMHUaZQ8EF7hNvQu8sdAsyKwDSJny"
+      }
+    ]
+  },
+  "expiredAt": null,
+  "createdAt": "2024-06-27T02:57:17.629Z",
+  "updatedAt": "2024-06-27T08:00:41.812Z"
+}

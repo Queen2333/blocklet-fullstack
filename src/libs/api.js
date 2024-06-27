@@ -1,14 +1,25 @@
 import axios from 'axios';
+import { message } from 'antd';
 
-axios.interceptors.request.use(
+const api = axios.create({
+  baseURL: window.blocklet ? window.blocklet.prefix : '/',
+  timeout: 20000,
+});
+
+api.interceptors.request.use(
   (config) => {
-    const prefix = window.blocklet ? window.blocklet.prefix : '/';
-    config.baseURL = prefix || '';
-    config.timeout = 200000;
-
     return config;
   },
   (error) => Promise.reject(error)
 );
 
-export default axios;
+api.interceptors.response.use(
+  (response) => response.data,
+  (error) => {
+    console.error('API call failed:', error);
+    message.error(`fail: ${error}`);
+    return Promise.reject(error);
+  }
+);
+
+export default api;

@@ -17,6 +17,7 @@ This blocklet is a dapp project, which means this is a full-stack application. I
   - middlewares/ - Api side middlewares
   - routes/ - Api side routes
   - index.js - Api side entry point
+  - database.js - Database initialization and configuration file
 - src/ - Client side code (A standard react app structure)
 - .env - Environment variables
 - .env.local - Local environment variables

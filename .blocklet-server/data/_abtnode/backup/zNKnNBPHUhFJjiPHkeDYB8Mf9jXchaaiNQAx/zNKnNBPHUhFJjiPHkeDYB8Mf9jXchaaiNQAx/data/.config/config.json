@@ -1,0 +1,31 @@
+{
+  "env": {
+    "appId": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx",
+    "appPid": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx",
+    "appIds": ["zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx"],
+    "appName": "Alex Blocklet",
+    "appDescription": "test",
+    "appUrl": "https://bbqa2zgcaj7lp3rswu5krs6aqqidhjaobekh7y7aagu.did.abtnet.io",
+    "languages": [
+      { "code": "en", "name": "English" },
+      { "code": "zh", "name": "简体中文" }
+    ],
+    "preferences": {},
+    "serverVersion": "1.16.28",
+    "initialized": true
+  },
+  "components": [
+    {
+      "title": "blocklet-fullstack",
+      "did": "z2qZy3oZGyDGumgkVs6ZoNtm1Qpw79evXs13c",
+      "name": "z2qZy3oZGyDGumgkVs6ZoNtm1Qpw79evXs13c",
+      "version": "0.1.0",
+      "mountPoint": "/blocklet-fullstack",
+      "status": 8,
+      "port": 8092,
+      "resources": [],
+      "resourcesV2": [],
+      "group": "dapp"
+    }
+  ]
+}

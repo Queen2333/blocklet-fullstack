@@ -15,10 +15,14 @@ app.set('trust proxy', true);
 app.use(cookieParser());
 app.use(express.json({ limit: '1 mb' }));
 app.use(express.urlencoded({ extended: true, limit: '1 mb' }));
-app.use(cors());
+app.use(
+  cors({
+    origin: 'https://bbqa6nzozpu2yh3bgt5bldbhrdubdqbjbunruk4qa6q.did.abtnet.io',
+  })
+);
 
 const router = express.Router();
-router.use('/api', require('./routes'));
+router.use('/api', require('./routes')); // 将所有 /api 路由都转发到 routes 文件
 app.use(router);
 
 const isProduction = process.env.NODE_ENV === 'production' || process.env.ABT_NODE_SERVICE_ENV === 'production';
@@ -35,7 +39,7 @@ if (isProduction) {
   });
 }
 
-const port = parseInt(process.env.BLOCKLET_PORT, 10);
+const port = parseInt(process.env.BLOCKLET_PORT, 10) || 3000;
 
 const server = app.listen(port, (err) => {
   if (err) throw err;

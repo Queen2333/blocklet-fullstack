@@ -1,0 +1,175 @@
+[
+  {
+    "id": "caf9f883-0cb4-41da-ad70-55b56d220891",
+    "scope": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx",
+    "action": "upgradeBlocklet",
+    "category": "blocklet",
+    "content": "upgraded component: **blocklet-fullstack@0.1.0** from **blocklet-fullstack@0.1.0**",
+    "actor": { "did": "z1e6cVLCCpDd71dxfkYcW6AasmH8Untu7Bn", "fullName": "Local CLI", "role": "admin" },
+    "extra": { "did": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx" },
+    "env": { "browser": { "name": "CLI", "version": "1.16.28" } },
+    "ip": "127.0.0.1",
+    "ua": "BlockletCLI/1.16.28",
+    "createdAt": "2024-06-27T08:00:41.778Z",
+    "updatedAt": "2024-06-27T08:00:41.778Z"
+  },
+  {
+    "id": "327be3a9-2e86-4692-811c-d1c65ef76ac2",
+    "scope": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx",
+    "action": "installBlocklet",
+    "category": "blocklet",
+    "content": "installed application Alex Blocklet",
+    "actor": { "did": "z1ghJFEvT9b4b5TJ5zqqEHrBxRTVjjgKty3", "fullName": "Alex", "role": "owner" },
+    "extra": { "did": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx" },
+    "env": {
+      "browser": { "name": "Chrome", "version": "125.0.0.0", "major": "125" },
+      "os": { "name": "Mac OS", "version": "10.15.7" },
+      "device": { "vendor": "Apple", "model": "Macintosh" }
+    },
+    "ip": "10.98.163.7",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "createdAt": "2024-06-27T02:57:23.432Z",
+    "updatedAt": "2024-06-27T02:57:23.432Z"
+  },
+  {
+    "id": "c9af3f03-407a-4f00-b194-091f37be4efa",
+    "scope": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx",
+    "action": "configBlocklet",
+    "category": "blocklet",
+    "content": "updated following config for application: *BLOCKLET_APP_COPYRIGHT_OWNER*",
+    "actor": { "did": "z1ghJFEvT9b4b5TJ5zqqEHrBxRTVjjgKty3", "fullName": "Alex", "role": "owner" },
+    "extra": {
+      "did": ["zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx"],
+      "configs": [{ "key": "BLOCKLET_APP_COPYRIGHT_OWNER", "value": "Alex", "secure": false }]
+    },
+    "env": {
+      "browser": { "name": "Chrome", "version": "125.0.0.0", "major": "125" },
+      "os": { "name": "Mac OS", "version": "10.15.7" },
+      "device": { "vendor": "Apple", "model": "Macintosh" }
+    },
+    "ip": "10.98.163.7",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "createdAt": "2024-06-27T03:29:21.280Z",
+    "updatedAt": "2024-06-27T03:29:21.281Z"
+  },
+  {
+    "id": "0028620c-122a-4862-95c9-bfc640ef2497",
+    "scope": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx",
+    "action": "updateAppSessionConfig",
+    "category": "",
+    "content": "updated session config: {\"ttl\":1209600}",
+    "actor": { "did": "z1ghJFEvT9b4b5TJ5zqqEHrBxRTVjjgKty3", "fullName": "Alex", "role": "owner" },
+    "extra": { "did": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx", "config": { "ttl": 1209600 } },
+    "env": {
+      "browser": { "name": "Chrome", "version": "125.0.0.0", "major": "125" },
+      "os": { "name": "Mac OS", "version": "10.15.7" },
+      "device": { "vendor": "Apple", "model": "Macintosh" }
+    },
+    "ip": "10.98.163.7",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "createdAt": "2024-06-27T06:30:13.641Z",
+    "updatedAt": "2024-06-27T06:30:13.641Z"
+  },
+  {
+    "id": "c5c82300-4d3e-4111-a37c-2b0fd2938a52",
+    "scope": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx",
+    "action": "configBlocklet",
+    "category": "blocklet",
+    "content": "updated following config for application: *BLOCKLET_APP_BACKUP_ENDPOINT*",
+    "actor": { "did": "z1ghJFEvT9b4b5TJ5zqqEHrBxRTVjjgKty3", "fullName": "Alex", "role": "owner" },
+    "extra": {
+      "did": ["zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx"],
+      "configs": [
+        {
+          "key": "BLOCKLET_APP_BACKUP_ENDPOINT",
+          "value": "https://www.didspaces.com/app/api/space/zNKhbCbWMHUaZQ8EF7hNvQu8sdAsyKwDSJny/app/zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx/object/",
+          "secure": false
+        }
+      ]
+    },
+    "env": {
+      "browser": { "name": "Chrome", "version": "125.0.0.0", "major": "125" },
+      "os": { "name": "Mac OS", "version": "10.15.7" },
+      "device": { "vendor": "Apple", "model": "Macintosh" }
+    },
+    "ip": "10.98.163.7",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "createdAt": "2024-06-27T06:53:08.995Z",
+    "updatedAt": "2024-06-27T06:53:08.996Z"
+  },
+  {
+    "id": "ac6fcb2b-51e2-404c-a344-c3ed5f238fd6",
+    "scope": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx",
+    "action": "stopBlocklet",
+    "category": "blocklet",
+    "content": "stopped component blocklet-fullstack@0.1.0",
+    "actor": { "did": "z1ghJFEvT9b4b5TJ5zqqEHrBxRTVjjgKty3", "fullName": "Alex", "role": "owner" },
+    "extra": {
+      "did": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx",
+      "componentDids": ["z2qZy3oZGyDGumgkVs6ZoNtm1Qpw79evXs13c"]
+    },
+    "env": {
+      "browser": { "name": "Chrome", "version": "125.0.0.0", "major": "125" },
+      "os": { "name": "Mac OS", "version": "10.15.7" },
+      "device": { "vendor": "Apple", "model": "Macintosh" }
+    },
+    "ip": "10.98.163.7",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "createdAt": "2024-06-27T07:09:32.345Z",
+    "updatedAt": "2024-06-27T07:09:32.345Z"
+  },
+  {
+    "id": "ebdc6960-39ac-4d71-bbc2-2c5a1a04b060",
+    "scope": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx",
+    "action": "upgradeBlocklet",
+    "category": "blocklet",
+    "content": "upgraded component: **blocklet-fullstack@0.1.0** from **blocklet-fullstack@0.1.0**",
+    "actor": { "did": "z1kCs2iTC7pzHjtxQkG9ZajepqgMHwqfXy8", "fullName": "Local CLI", "role": "admin" },
+    "extra": { "did": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx" },
+    "env": { "browser": { "name": "CLI", "version": "1.16.28" } },
+    "ip": "127.0.0.1",
+    "ua": "BlockletCLI/1.16.28",
+    "createdAt": "2024-06-27T07:12:31.952Z",
+    "updatedAt": "2024-06-27T07:12:31.952Z"
+  },
+  {
+    "id": "efcf7f31-677a-41f7-b022-892ba75f7737",
+    "scope": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx",
+    "action": "addUser",
+    "category": "team",
+    "content": "joined team by launch blocklet",
+    "actor": { "did": "z1nL1W1JVTxbNddJjm19poXYCPFGH7HGPk6", "fullName": "Alex", "role": null },
+    "extra": {
+      "teamDid": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx",
+      "userDid": "z1nL1W1JVTxbNddJjm19poXYCPFGH7HGPk6",
+      "reason": "launch blocklet"
+    },
+    "env": {
+      "browser": { "name": "Chrome", "version": "125.0.0.0", "major": "125" },
+      "os": { "name": "Mac OS", "version": "10.15.7" },
+      "device": { "vendor": "Apple", "model": "Macintosh" }
+    },
+    "ip": "10.98.163.7",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "createdAt": "2024-06-27T02:57:20.694Z",
+    "updatedAt": "2024-06-27T02:57:20.694Z"
+  },
+  {
+    "id": "f92ca018-9302-48b0-9db2-99550b2e6c12",
+    "scope": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx",
+    "action": "startBlocklet",
+    "category": "blocklet",
+    "content": "started application",
+    "actor": { "did": "z1nL1W1JVTxbNddJjm19poXYCPFGH7HGPk6", "role": "owner" },
+    "extra": { "did": "zNKnNBPHUhFJjiPHkeDYB8Mf9jXchaaiNQAx" },
+    "env": {
+      "browser": { "name": "Chrome", "version": "125.0.0.0", "major": "125" },
+      "os": { "name": "Mac OS", "version": "10.15.7" },
+      "device": { "vendor": "Apple", "model": "Macintosh" }
+    },
+    "ip": "10.98.163.7",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "createdAt": "2024-06-27T05:51:41.505Z",
+    "updatedAt": "2024-06-27T05:51:41.507Z"
+  }
+]
