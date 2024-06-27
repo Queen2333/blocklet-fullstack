@@ -12,7 +12,7 @@ author:
   email: majestyye@gmail.com
 repository:
   type: git
-  url: git+https://github.com/Queen2333/blocklet-test.git
+  url: git+https://github.com/Queen2333/blocklet-fullstack.git
 specVersion: 1.1.1
 version: 0.1.0
 logo: logo.png
