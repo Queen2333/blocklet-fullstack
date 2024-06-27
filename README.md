@@ -59,7 +59,7 @@ After developing a blocklet, you may need to bundle it. Use `npm run bundle` com
 ## Deploy
 
 - If you want to deploy this blocklet to local blocklet server, you can use `blocklet deploy .blocklet/bundle` command(Make sure the blocklet is bundled before deployment).
-  > Or you can simply use `npm run deploy` command.
+  > Or you can simply use `npm run deploy --app-id {app-id}` command.
 - If you want to deploy this blocklet to remote blocklet server, you can use the command below.
 
   ```shell
